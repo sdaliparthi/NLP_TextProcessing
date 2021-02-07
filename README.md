@@ -5,7 +5,7 @@
         a. Removing the HTML Tags. Used Python/BeautifulSoup for that.
         b. Removing rows with empty columns
         c. Removing unwanted columns
-    2. Text representation using Bag of Words (BOW), inclusing:
+    2. Text representation using Bag of Words (BOW) vectorization, inclusing:
         a. Tokenization
         b. Removing stop words
         c. Replacing proper nouns
@@ -26,6 +26,7 @@
           i.    Voting (with Decission tree, SVC and Logistic Regression)
           ii.   Bagging (base_estimator as DecisionTreeClassifier)
           iii.  Bagging with voting
+    5. Tried all the above models with TF-IDF vectorization.
 
 > VoiceBasedSearch.py file deals with searching either Google or Youtube based on user inputs:
     1. The script will first prompt for the search eangine type: Either Google or Youtube
